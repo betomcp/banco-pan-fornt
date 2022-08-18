@@ -9,6 +9,8 @@ import { TitleComponent } from './components/title/title.component';
 import { PersonalData1Component } from './pages/personal-data1/personal-data1.component';
 import { PersonalData2Component } from './pages/personal-data2/personal-data2.component';
 import { AddressComponent } from './pages/address/address.component';
+import { InputNameComponent } from './components/input-name/input-name.component';
+import { GoAndBackComponent } from './components/go-and-back/go-and-back.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { AddressComponent } from './pages/address/address.component';
     TitleComponent,
     PersonalData1Component,
     PersonalData2Component,
-    AddressComponent
+    AddressComponent,
+    InputNameComponent,
+    GoAndBackComponent
   ],
   imports: [
     BrowserModule,
