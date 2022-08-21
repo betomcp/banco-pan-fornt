@@ -1,6 +1,8 @@
 # banco-pan-fornt
 Projeto da faculdade
 
+Este projeto consiste no front-end de um fluxo de cadastro de cliente.
+
 # Comandos Importantes: 
 
 deploy: ng deploy --base-href=/banco-pan-front/
