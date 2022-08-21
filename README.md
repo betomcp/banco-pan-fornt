@@ -2,6 +2,7 @@
 Projeto da faculdade
 
 Comandos Importantes: 
+
 deploy: ng deploy --base-href=/banco-pan-front/
 
-link: 
+link: https://betomcp.github.io/banco-pan-front/
