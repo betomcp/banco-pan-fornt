@@ -13,6 +13,8 @@ rodar aplicação localmente: ng s
 
 # Requisitos para clonar o projeto pela primeira vez:
 
+link para documentação do angular: https://angular.io/guide/setup-local
+
 instalar node: https://nodejs.org/en/download/
 
 instalar Angular: npm install -g @angular/cli
