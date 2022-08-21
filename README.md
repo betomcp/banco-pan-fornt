@@ -6,3 +6,7 @@ Comandos Importantes:
 deploy: ng deploy --base-href=/banco-pan-front/
 
 link: https://betomcp.github.io/banco-pan-front/
+
+gerar componente: ng g c /components/nome-do-componente
+
+rodar aplicação localmente: ng s
