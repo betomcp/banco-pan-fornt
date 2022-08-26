@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PersonalData1Component implements OnInit {
 
 
-  public title: string = "Estamos quase lá..."
+  public title: string = "Agora, precisamos de mais alguns dados..."
 
   constructor() { }
 

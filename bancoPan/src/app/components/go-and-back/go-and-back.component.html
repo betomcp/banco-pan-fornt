@@ -1,5 +1,5 @@
 <div>
-  <a routerLink="/">Voltar</a>
-  <a routerLink="personaldata1">Próximo</a>
+  <a [ngClass]="{'transparent': isFirstPage()}"  [routerLink]="'/'+backLink"><img src="../../../assets/icons/back-svgrepo-com.svg" alt="back"></a>
+  <a [routerLink]="'/'+goLink"><img src="../../../assets/icons/next-svgrepo-com.svg" alt="go"></a>
 </div>
 

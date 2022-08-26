@@ -1,0 +1,28 @@
+<div class="form">
+    <input type="text" placeholder="CEP">
+
+    <section>
+        <select name="" id="" ngModel>
+            <option value="">País</option>
+            <option *ngFor="let item of contryes" [value]="item">
+                {{item}}
+            </option>
+        </select>
+    
+        <select name="" id="" ngModel>
+            <option value="">UF</option>
+            <option *ngFor="let item of ufList" [value]="item">
+                {{item}}
+            </option>
+        </select>
+    </section>
+
+    <section>
+        <input type="text" placeholder="Rua">
+        <input type="text" placeholder="Número">
+    </section>
+
+    <input type="text" placeholder="Cidade">
+</div>
+
+<app-submit></app-submit>

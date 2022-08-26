@@ -11,6 +11,10 @@ import { PersonalData2Component } from './pages/personal-data2/personal-data2.co
 import { AddressComponent } from './pages/address/address.component';
 import { InputNameComponent } from './components/input-name/input-name.component';
 import { GoAndBackComponent } from './components/go-and-back/go-and-back.component';
+import { PersonalDataFormOneComponent } from './components/personal-data-form-one/personal-data-form-one.component';
+import { PersonalDataFormTwoComponent } from './components/personal-data-form-two/personal-data-form-two.component';
+import { AddresFormComponent } from './components/addres-form/addres-form.component';
+import { SubmitComponent } from './components/submit/submit.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +25,11 @@ import { GoAndBackComponent } from './components/go-and-back/go-and-back.compone
     PersonalData2Component,
     AddressComponent,
     InputNameComponent,
-    GoAndBackComponent
+    GoAndBackComponent,
+    PersonalDataFormOneComponent,
+    PersonalDataFormTwoComponent,
+    AddresFormComponent,
+    SubmitComponent
   ],
   imports: [
     BrowserModule,

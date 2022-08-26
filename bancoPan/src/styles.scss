@@ -13,3 +13,14 @@ body{
     background-color: white;
 }
 
+input, select{
+    border: solid 1px rgb(162, 162, 162) !important;
+    border-radius: 100px !important;
+    outline: none !important;
+    border: transparent !important;
+    box-shadow: 0 0 3px #b0b0b0 !important;
+    padding: 0.5rem !important;
+    background-color: rgb(245, 245, 245) !important;
+    font-size: 1.3rem;
+}
+

@@ -1,7 +1,36 @@
 div{
   display: flex;
   justify-content: space-between;
-  margin-top: 20rem;
-  width: 100%;
+  // margin-top: 20rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 3rem;
+  // max-width: 200px;
+  // width: 100%;
+  // border: solid 2px red;
+}
 
+:host{
+  width: 100%;
+}
+
+a{
+  border-radius: 1000px;
+  background-color: rgb(5, 205, 255);
+  width: 12%;
+  max-width: 50px;
+  text-align: center;
+  box-sizing: content-box;
+  padding: .3rem;
+}
+
+.transparent{
+  color: transparent;
+  background-color: transparent;
+}
+
+.transparent img{
+  display: none;
 }

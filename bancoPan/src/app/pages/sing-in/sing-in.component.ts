@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sing-in',
@@ -8,7 +9,11 @@ import { Component, Input } from '@angular/core';
 export class SingInComponent {
 
   public title: string = 'Antes de começarmos...';
+  
+  constructor(public router: Router) { }
 
-  constructor() { }
+  // public teste():void {
+  //   this.router.navigate(['/userdata1'], );
+  // }
 
 }
