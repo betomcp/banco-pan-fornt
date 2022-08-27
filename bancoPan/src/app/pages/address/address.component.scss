@@ -11,3 +11,26 @@ div{
 .title{
     margin-top: 6rem;
 }
+
+//TELA ENDEREÇO
+
+::ng-deep{
+  .first_star{
+    font-size: 4rem;
+    color: rgb(255, 255, 0);
+    text-shadow: 0 0 2px rgb(110, 110, 110);
+  }
+
+  .midle_star{
+    font-size: 6rem;
+    color: rgb(255, 255, 0);
+    text-shadow: 0 0 2px rgb(110, 110, 110);
+  }
+
+  .last_star{
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 2px rgb(110, 110, 110);
+  }
+}
+

@@ -15,6 +15,7 @@ import { PersonalDataFormOneComponent } from './components/personal-data-form-on
 import { PersonalDataFormTwoComponent } from './components/personal-data-form-two/personal-data-form-two.component';
 import { AddresFormComponent } from './components/addres-form/addres-form.component';
 import { SubmitComponent } from './components/submit/submit.component';
+import { GameComponent } from './components/game/game.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SubmitComponent } from './components/submit/submit.component';
     PersonalDataFormOneComponent,
     PersonalDataFormTwoComponent,
     AddresFormComponent,
-    SubmitComponent
+    SubmitComponent,
+    GameComponent
   ],
   imports: [
     BrowserModule,
