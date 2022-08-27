@@ -1,4 +1,5 @@
 import { Component, DoCheck, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { User } from 'src/app/model/user';
 
 @Component({
@@ -11,9 +12,17 @@ export class InputNameComponent implements DoCheck, OnInit  {
 
   public name: string = "";
 
-  //public userObj: Array<User> = [];
+  public user: User = {
+    name: "",
+    email: "",
+    cpf: "",
+    celphone: "",
+    rg: "",
+    mothersName: "",
+    monthlyIncome: 0
+  }
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     // console.log("onInit")
@@ -21,7 +30,12 @@ export class InputNameComponent implements DoCheck, OnInit  {
 
   public saveData(): void {
     localStorage.setItem("name", this.name)
-    console.log("passou")
+    this.user.name = this.name
+  }
+
+  public goToNext(): void{
+    console.log(this.user)
+    this.router.navigate(['/personaldata1', {userData: {user: this.user}}])
   }
 
   ngDoCheck(): void {

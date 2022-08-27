@@ -1,1 +1,1 @@
-<input (keydown)="saveData()" type="text" [(ngModel)]="name"> 
+<input (keydown)="saveData()" (keydown.enter)="goToNext()" type="text" [(ngModel)]="name">

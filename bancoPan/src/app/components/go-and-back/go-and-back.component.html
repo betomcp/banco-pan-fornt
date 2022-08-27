@@ -1,5 +1,9 @@
 <div>
-  <a [ngClass]="{'transparent': isFirstPage()}"  [routerLink]="'/'+backLink"><img src="../../../assets/icons/back-svgrepo-com.svg" alt="back"></a>
-  <a [routerLink]="'/'+goLink"><img src="../../../assets/icons/next-svgrepo-com.svg" alt="go"></a>
+  <a [ngClass]="{'transparent': isFirstPage()}"  [routerLink]="'/'+backLink">
+    <i class='bx bxs-chevron-left'></i>
+  </a>
+  <a [routerLink]="'/'+goLink">
+    <i class='bx bxs-chevron-right'></i>
+  </a>
 </div>
 

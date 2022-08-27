@@ -34,7 +34,7 @@ import { SubmitComponent } from './components/submit/submit.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

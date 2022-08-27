@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-personal-data-form-one',
@@ -11,9 +12,11 @@ export class PersonalDataFormOneComponent implements OnInit {
   public cpf: string = "";
   public celphone: string = "";
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+      console.log(this.router)
+      console.log(this.router)
   }
 
   public saveEmail(): void{
